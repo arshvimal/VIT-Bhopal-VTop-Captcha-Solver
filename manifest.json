@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "VTop Captcha Autofill by Arsh",
+  "version": "1.0",
+  "description": "This is an extention to autofill captcha on VIT Bhopal's vtop login. I made with the help of ChatGPT to test its power",
+  "icons": {
+    "128": "vitbhopal.png"
+  },
+  "author": "Arsh Vimal",
+  "content_scripts": [
+    {
+      "matches": ["https://vtop.vitbhopal.ac.in/vtop/initialProcess"],
+      "js": ["content.js", "opencv.js", "tesseract.min.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "vitbhopal.png"
+  }
+}
