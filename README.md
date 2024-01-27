@@ -1,3 +1,5 @@
+## This project has been retired
+
 # VTop-Captcha-Solver
 This is an extention to autofill captcha on VIT Bhopal's vtop login. I made with the help of ChatGPT to test its power. This Extension Uses a Javascript version of OpenCV and Tesract OCR to clean the captcha and perform an OCR.
 
